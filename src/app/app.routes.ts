@@ -4,6 +4,7 @@ import { ProductoComponent } from './page/producto/producto.component';
 import { ListproductoComponent } from './page/listproducto/listproducto.component';
 import { UpdateproductoComponent } from './page/updateproducto/updateproducto.component';
 import { LoginComponent } from './page/login/login.component';
+import { CrearproductoComponent } from './page/crearproducto/crearproducto.component';
 
 export const routes: Routes = [
 
@@ -24,6 +25,10 @@ export const routes: Routes = [
 {
     path: 'updata-producto',
     component: UpdateproductoComponent
+},
+{
+    path: 'crear-producto',
+    component: CrearproductoComponent
 },
 
 
